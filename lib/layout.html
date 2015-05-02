@@ -1,0 +1,12 @@
+<template name="html">
+  {{{getDocType}}}
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      {{{getStaticHeaders}}}
+    </head>
+    <body>
+      {{> Template.dynamic template=template data=data}}
+    </body>
+  </html>
+</template>
