@@ -20,9 +20,9 @@ function configurePackage(api) {
   api.versionsFrom('1.1.0.2');
 
   api.use('meteor-platform');
-  api.use('meteorhacks:picker');
-  api.use('meteorhacks:ssr');
-  api.use('iron:router');
+  api.use('meteorhacks:picker@1.0.2');
+  api.use('meteorhacks:ssr@2.1.2');
+  api.use('iron:router@1.0.7');
   api.use(['markdown'], 'server');
 
   api.addFiles('lib/fragment.html', 'client');
