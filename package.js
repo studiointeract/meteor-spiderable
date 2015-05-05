@@ -1,6 +1,6 @@
 Package.describe({
   name: 'studiointeract:spiderable',
-  version: '0.9.1',
+  version: '0.9.2',
   summary: 'Spiderable with Server Side Rendering (meteorhacks:ssr) and (iron:router).',
   git: 'https://github.com/studiointeract/meteor-spiderable',
   documentation: 'README.md'
@@ -32,6 +32,7 @@ function configurePackage(api) {
   ], 'server', {isAsset: true});
 
   api.addFiles([
+    'lib/overrides.js',
     'lib/boot_templates.js',
     'lib/routes.js',
     'lib/markdown.js',
