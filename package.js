@@ -1,6 +1,6 @@
 Package.describe({
   name: 'studiointeract:spiderable',
-  version: '0.9.0',
+  version: '0.9.1',
   summary: 'Spiderable with Server Side Rendering (meteorhacks:ssr) and (iron:router).',
   git: 'https://github.com/studiointeract/meteor-spiderable',
   documentation: 'README.md'
