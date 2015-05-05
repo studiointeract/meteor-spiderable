@@ -27,12 +27,13 @@ function configurePackage(api) {
 
   api.addFiles('lib/fragment.html', 'client');
   api.addFiles([
-    'lib/layout.html',
-    'lib/layout.js'
+    'lib/boilerplate.html',
+    'lib/boilerplate.js'
   ], 'server', {isAsset: true});
 
   api.addFiles([
     'lib/overrides.js',
+    'lib/layout.js',
     'lib/boot_templates.js',
     'lib/routes.js',
     'lib/markdown.js',
