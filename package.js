@@ -22,7 +22,7 @@ function configurePackage(api) {
   api.use('meteor-platform');
   api.use('meteorhacks:picker@1.0.2');
   api.use('meteorhacks:ssr@2.1.2');
-  api.use('iron:router@1.0.7');
+  api.use('iron:router@1.0.0');
   api.use(['markdown'], 'server');
 
   api.addFiles('lib/fragment.html', 'client');
